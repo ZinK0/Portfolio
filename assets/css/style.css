@@ -1,0 +1,261 @@
+:root {
+  --h2fontsize: 50px;
+  --fb-logo: #0866ff;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  margin: auto;
+  /* width: 90%; */
+}
+
+/* Universal Class for some tasks */
+.marginbtn100 {
+  margin-bottom: 100px;
+}
+
+.pd5percent {
+  padding: 0 5%;
+}
+
+.centerflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button Style  */
+.btn {
+  background-image: linear-gradient(
+    92.88deg,
+    #455eb5 9.16%,
+    #5643cc 43.89%,
+    #673fd7 64.72%
+  );
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 0 2.6rem;
+  }
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar Section Styles  */
+header {
+  /* width: 100%; */
+  height: 50px;
+  /* margin: 20px 0; */
+  padding: 35px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(229 229 229);
+}
+
+.logo {
+  border-radius: 25px;
+}
+
+header img {
+  width: 50px;
+  margin: 10px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  width: 55%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style: none;
+  text-decoration: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #2e2e2e;
+  height: 100%;
+  padding: 5px;
+}
+
+nav li a:hover {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+/* Hero Section */
+
+.herosection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 50%; */
+  height: 90vh;
+}
+
+.herosection h2 {
+  line-height: 50px;
+  font-size: 40px;
+}
+
+.subject {
+  color: goldenrod;
+}
+
+.myname {
+  color: rgb(2, 196, 164);
+}
+
+.herosection img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* About ME section  */
+
+.aboutme {
+  width: 100%;
+  height: 800px;
+}
+
+.abtmetitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.abtmecenter {
+  display: flex;
+  gap: 20px;
+}
+
+.abtmetitle h2 {
+  font-size: var(--h2fontsize);
+  margin-bottom: 0;
+}
+
+.abtmetitle p {
+  font-size: 30px;
+}
+
+.abtmeimage {
+  width: 500px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.abtmedescription {
+  text-indent: 50px;
+  text-align: justify;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+/* Contact Section Start Here  */
+.contact_section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.map {
+  width: 500px;
+}
+
+.getintouch_info {
+  width: 500px;
+}
+
+.getintouch_info ul {
+  list-style: none;
+}
+
+.getintouch_info li {
+  padding: 10px 0;
+}
+
+.getintouch_info a {
+  text-decoration: none;
+  color: black;
+}
+
+.link-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.fb-inside {
+  color: white;
+}
+
+.profile_link_icon svg {
+  margin-left: 20px;
+}
+/* Go To Top Button  */
+.topbtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  color: blue;
+  border-radius: 50%;
+  border: 1px solid blue;
+}
