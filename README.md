@@ -1,0 +1,3 @@
+# Module 2 : Challenge Portfolio
+- Finished Navbar, Hero section, About Me, Contact
+- Still developing ...
